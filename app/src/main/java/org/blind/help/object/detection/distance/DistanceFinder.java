@@ -17,7 +17,7 @@ public class DistanceFinder {
             add("cat");
             add("mug");
             add("bowl");
-            add("watch");
+            add("toothbrush");
             add("remote control");
             //new
             add("toilet");
@@ -29,7 +29,7 @@ public class DistanceFinder {
             add("fork");
             add("table");
             add("laptop");
-            add("platter");
+            add("sink");
 
         }
     };
@@ -54,9 +54,9 @@ public class DistanceFinder {
                     return String.format("%.02f",new DistanceModel("mug", 147.606f, 2.99213f, 44.5f).calcuteDistanceFromCameraInInches(widthInPixels)/10) + " inches";
                 case "bowl":
                     return String.format("%.02f",new DistanceModel("bowl", 147.606f, 9.75f, 147.5f).calcuteDistanceFromCameraInInches(widthInPixels)/10) + " inches";
-                case "platter":
+                case "toothbrush":
                     return String.format("%.02f",new DistanceModel("platter", 147.606f, 9.75f, 147.5f).calcuteDistanceFromCameraInInches(widthInPixels)/10) + " inches";
-                case "watch":
+                case "sink":
                     return String.format("%.02f",new DistanceModel("watch", 147.606f, 1.65354f, 25.5f).calcuteDistanceFromCameraInInches(widthInPixels)/10) + " inches";
                 case "remote control":
                     return String.format("%.02f",new DistanceModel("remote", 387.606f, 1.43f, 21.5f).calcuteDistanceFromCameraInInches(widthInPixels)/10) + " inches";

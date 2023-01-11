@@ -82,7 +82,7 @@ public  static SizeF cameraPhysicalSize;
   private int yRowStride;
   private Runnable postInferenceCallback;
   private Runnable imageConverter;
-  public String re = ".*apple.*|.*platter.*|.*car.*|.*cat.*|.*microwave.*|.*mobile.*|.*mug.*|.*person.*|.*bowl.*|.*remote.*|.*watch.*|.*bottle.*|.*toilet.*|.*spoon.*|.*toaster.*|.*suitcase.*|.*laptop.*";
+  public String re = ".*apple.*|.*sink.*|.*car.*|.*cat.*|.*microwave.*|.*mobile.*|.*mug.*|.*person.*|.*bowl.*|.*remote.*|.*toothbrush.*|.*bottle.*|.*toilet.*|.*spoon.*|.*toaster.*|.*suitcase.*|.*laptop.*";
  public float xChange =0;
  public float yChange = 0;
  public float [] history = new float[2];
@@ -95,8 +95,8 @@ public  static SizeF cameraPhysicalSize;
   public String cmd0="Tap on screen search for object or double tap for the help?";
   public CharSequence cmdWelcome=  "Welcome, You can use following command in this app.\n1You can detect object By Tapping on Screen and saying any sentence containing any of object from above objects\n" +
           "\n2. You can search all objects by saying 'all'  objects after tapping on the screen"+
-          "\n3. Tap on screen, then speak the object you are looking for or double tap for the help?\n4. It can detect following objects: Person,Apple,Mug,Car,Cat,bowl, watch,mobile phone,remote control,microwave oven,laptop,toilet," +
-          "spoon,fork,chair,table,bottle,toaster,suitcase, and platter." +
+          "\n3. Tap on screen, then speak the object you are looking for or double tap for the help?\n4. It can detect following objects: Person,Apple,Mug,Car,Cat,bowl,mobile phone,remote control,microwave oven,laptop,toilet," +
+          "spoon,toothbrush,bottle,toaster,suitcase, and sink." +
           "\n5. Say turn on, turn off or turn auto to set Mobile Flash Light Mode." +
            "\n6 You can Check light in surrounding, by saying lightness, which include dark, day light, dim light ,moderate light, Too much Light. \n7 Close app by long press";
 
